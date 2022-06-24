@@ -1,0 +1,31 @@
+# Game mechanic:
+1. Cada jugador elige color y apodo.
+2. Randomly distribute countries between players.
+3. Primera ronda, cada jugador:
+	- Ubica 5 fichas en alguno de sus países.
+   Segunda ronda, cada jugador:
+	- Ubica 3 fichas en alguno de sus países.
+   Tercer ronda, cada jugador:
+    - Ataca/conquista.
+    - Reagrupa.
+    - Recibe tarjeta.
+4. Loop principal, cada jugador:
+	- Si tiene 3 cartas iguales/distintas, canje.
+	- Si tiene continente, recibe fichas = 1/2 cantidad.
+	- Recibe fichas = a 1/2 de su cantidad de países.
+	- Ataca/conquista.
+	- Si victory conditions = True, break.
+	- Reagrupa.
+	- Recibe tarjeta si tiene < de 5.
+	
+	
+Clases:
+mazo = (países)
+limitrofes = [{"argentina": "chile", "peru", "uruguay", "brasil"}
+			  {"pais2": "pais", "pais", "pais"}]
+player = ("sus paises": 
+		  "sus cartas":
+		  "victory conditions":
+)
+turno =
+	
